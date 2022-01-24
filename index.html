@@ -1,11 +1,58 @@
 <!DOCTYPE html>
+
 <head>
-    <Title>My Page</Title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <Title>Welcome to My Page</Title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
-    <img src="images/myprofile.jpg" height="350px" width="350px"/>
-    <p>
-        Hello, I am Brydon. I love to take film photos and go skateboarding with my board around Singapore.
-    </p>
+    <div id="navi">
+        <nav>
+            <label class="logo">Brydon's</label>
+            <ul>
+                <li><a href="#profilepic">About Me</a></li>
+                <li><a href="">Skills</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div id="maincontent">
+        <div id="introprofile">
+            <table>
+                <tr>
+                    <td><img id="profilepic" src="images/myprofile.jpg" /></td>
+                    <td>
+                        <div id="intro">
+                            <p>
+                                <span id="welcome">WELCOME TO MY PAGE!</span> <br/><br/>
+                                Hello, I am Brydon. I love to take film photos and go skateboarding with my board around
+                                Singapore.
+                            </p>
+                            <br/>
+                            <p>
+                                I am an outdoors person as you can see from the skateboarding, I enjoy other sports such as
+                                basketball and darts too.
+                            </p>
+                            <br/>
+                            <p>
+                                If you are interested, feel free to hit me up!
+                            </p>
+                        </div>
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="ytvideo">
+            <h3>Taiwan is one of the countries I want to visit after graduation!</h3> <br/>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/cdgLDZSeYUw?autoplay=1&mute=1"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+    </div>
 </body>
+
 </html>

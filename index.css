@@ -1,0 +1,114 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    background-color: darkslateblue;
+    height: 80px;
+    width: 100%;
+}
+
+label.logo {
+    color: white;
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 100px;
+    font-weight: bold;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+
+nav ul li a {
+    color: white;
+    font-size: 17px;
+    padding: 7px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+a.active, a:hover {
+    background-color: rgb(121, 103, 235);
+    transition: .5s;
+}
+
+#navi {
+    margin-bottom: 20px;
+}
+
+#maincontent {
+   width: 95%;
+}
+
+#profilepic {
+   height: 300px;
+   width: 300px;
+   border: 3px solid black;
+   border-radius: 3px;
+}
+
+#intro {
+    width: 300px;
+    border: 5px solid peachpuff;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+html, body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+div #maincontent {
+    height: calc(100%-80px);
+    width: 100%;
+    text-align: center;
+}
+
+p {
+    color: black;
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, td{
+    text-align: center;
+    border-spacing: 20px;
+    margin-bottom: 2px;
+}
+
+#welcome {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+
+div #introprofile {
+    margin-bottom: 3px;
+}
+
+
+div #ytvideo {
+    text-align: center;
+}
+
